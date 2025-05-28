@@ -22,7 +22,7 @@
   --bs-warning-text-emphasis: #ffda6a;
   --bs-danger-text-emphasis: #ea868f;
   --bs-light-text-emphasis: #f8f9fa;
-  --bs-dark-text-emphasis: #153f69;
+  --bs-dark-text-emphasis: #b7c1cc;
   --bs-primary-bg-subtle: #031633;
   --bs-secondary-bg-subtle: #161719;
   --bs-success-bg-subtle: #051b11;
@@ -53,4 +53,9 @@
   --bs-form-valid-border-color: #75b798;
   --bs-form-invalid-color: #ea868f;
   --bs-form-invalid-border-color: #ea868f;
+}
+
+.texto1 {
+    padding-right: 300px;
+    padding-left: 300px;
 }
