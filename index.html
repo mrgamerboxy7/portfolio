@@ -10,7 +10,7 @@
 <body>
     <header class="container text-center">
     <img src="img/avatar-perfil.png" alt="avatar de Thulio" class="rounded-circle" width="150" height="150" srcset="">
-    <h3 class="lead text-warning">Eu sou @Thulio_Luiz</h3>
+    <h3 class="ata lead text-warning">Eu sou @Thulio_Luiz</h3>
     <h2>Eu estudo Programação</h2>
     <div class="texto1 mt-4">
     <p>Sou Estudante da Escola Geraldo do Espírito Santo Fogaça de Almeida.
@@ -33,8 +33,7 @@
                     <div class="card-body p-3 mb-2 bg-primary-subtle">
                         <h5 class="card-title text-center text-warning">Gurizões</h5>
                         <p class="card-text">Um dos meus primeiros sites criados, com a ajuda da Alura Cursos, Um mini site com videos e canais de alguns dos meus youtubers favoritos.</p>
-                        <a href="https://mrgamerboxy7.github.io/Gurizoes1/" class="btn btn-success">Visite o Site</a>
-                        <a href="https://github.com/mrgamerboxy7/Gurizoes1" class="btn btn-secondary">Veja o código</a>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1">Ver mais</button>
                     </div>
                 </div>
             </div>
@@ -44,8 +43,7 @@
                     <div class="card-body p-3 mb-2 bg-primary-subtle">
                         <h5 class="card-title text-center text-warning">LINKS</h5>
                         <p class="card-text">Um dos meus sites criados, este site eu fiz sem pensar muito, mas fiz ele sozinho e eu fiz só para guardar alguns links de jogos, arquivos etc...</p>
-                        <a href="https://mrgamerboxy7.github.io/LINKS/" class="btn btn-success">Visite o Site</a>
-                        <a href="https://github.com/mrgamerboxy7/LINKS" class="btn btn-secondary">Veja o código</a>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal2">Ver mais</button>
                     </div>
                 </div>
             </div>
@@ -55,19 +53,85 @@
                     <div class="card-body p-3 mb-2 bg-primary-subtle">
                         <h5 class="card-title text-center text-warning">Gurizões mobile</h5>
                         <p class="card-text">Este é meio que o site do primeiro projeto apresentado, porém, tentei fazer em uma versão para celulares.</p>
-                        <a href="https://mrgamerboxy7.github.io/LINKS/" class="btn btn-success">Visite o Site</a>
-                        <a href="https://github.com/mrgamerboxy7/LINKS" class="btn btn-secondary">Veja o código</a>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal3">Ver mais</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
+    <div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Gurizões: um site criado para estudo de programação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+                <img
+                   src="img/projeto-1.png"
+                   class="img-fluid w-100"
+                   alt="Imagem de um site de recomendações de videos e canais do youtube"
+  />
+            </div>
+            <div class="modal-footer">
+                <a href="https://mrgamerboxy7.github.io/Gurizoes1/" class="btn btn-success">Visite o Site</a>
+                <a href="https://github.com/mrgamerboxy7/Gurizoes1" class="btn btn-secondary">Veja o código</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Links: biblioteca de links de arquivos e jogos</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+                <img
+                    src="img/projeto-2.png"
+                    class="img-fluid w-100"
+                    alt="Imagem de um site de recomendações de videos e canais do youtube">
+            </div>
+            <div class="modal-footer">
+                <a href="https://mrgamerboxy7.github.io/LINKS/" class="btn btn-success">Visite o Site</a>
+                <a href="https://github.com/mrgamerboxy7/LINKS" class="btn btn-secondary">Veja o código</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal3" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-center">Gurizões mobile: um site criado para estudo de programação(pra celular)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Modal body text goes here.</p>
+                <img
+                    src="img/projeto-3.png"
+                    class="img-fluid w-100"
+                    alt="Imagem de um site de recomendações de videos e canais do youtube">
+            </div>
+            <div class="modal-footer">
+                <a href="https://mrgamerboxy7.github.io/LINKS/" class="btn btn-success">Visite o Site</a>
+                <a href="https://github.com/mrgamerboxy7/LINKS" class="btn btn-secondary">Veja o código</a>
+            </div>
+        </div>
+    </div>
+</div>
+
     <footer class="container py-5">
         <h2>Entre em contato</h2>
         <div>
             <i class="fa-brands fa-github fa-2xl"></i>
-            <a href="https://github.com/mrgamerboxy7" class="btn btn-primary"> GitHub</a>
+            <a href="https://github.com/mrgamerboxy7" class="btn btn-primary">GitHub</a>
         </div>
         <div class="my-3">
            <i class="fa-solid fa-envelope fa-2xl"></i>

@@ -75,3 +75,7 @@ h1, h2, h5 {
   color: var(--bs-light-text-emphasis);
   font-weight: 500;
 }
+
+.ata {
+  font-weight: 700;
+}
